@@ -4,6 +4,7 @@ learn python basic programmer.I mainly used tkinter and csv package. GUI sometim
 <div align="center">
 <img src="demo/1.png" width=400 height=260 alt="run demo">
 </div>
+
 ## Getting Started
 1. chengyu.txt is the foundamental file that you have to load it first. But ver2 has already deleted it. It's too big for a tiny program.
 2. First, make sure your python version >= 3.6
