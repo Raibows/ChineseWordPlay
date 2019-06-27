@@ -53,18 +53,18 @@ def deep_search(word_database, answers): #get optimal answer from answers list
 
 
 def get_answer(word_database, input_word):
-    if not check_exist(input_word, word_database):
-        with open('demo/simplified.csv', 'a+', encoding='utf-8', newline='') as file:
-            writer = csv.writer(file)
-            word = input_word
-            head = word[0]
-            end = word[-1]
-            frequency = 0
-            now = time.strftime('%Y-%m-%d', time.localtime())
-            row = [word, head, end, frequency, now]
-            writer.writerow(row)
     check = re.match(Chinese_limit, input_word)
     if check and check[0] == input_word:
+        if not check_exist(input_word, word_database):
+            with open('demo/simplified.csv', 'a+', encoding='utf-8', newline='') as file:
+                writer = csv.writer(file)
+                word = input_word
+                head = word[0]
+                end = word[-1]
+                frequency = 0
+                now = time.strftime('%Y-%m-%d', time.localtime())
+                row = [word, head, end, frequency, now]
+                writer.writerow(row)
         answers = word_database.get(input_word[-1])
         if answers:
             optimal = deep_search(word_database, answers)
