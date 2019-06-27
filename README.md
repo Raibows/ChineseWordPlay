@@ -1,6 +1,6 @@
 ## Introduction
 This a tiny python program which may help you 
-learn python basic grammer.I mainly used tkinter and csv package. GUI sometimes is a good way to help you find interests in learning python ! And please **star** my project if you like it.
+learn python basic grammar.I mainly used tkinter and csv package. GUI sometimes is a good way to help you find interests in learning python ! And please **star** my project if you like it.
 <div align="center">
 <img src="demo/1.png" width=400 height=260 alt="run demo">
 </div>
