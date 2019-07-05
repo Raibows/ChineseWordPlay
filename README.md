@@ -1,5 +1,5 @@
 ## Introduction
-This a tiny python program which may help you 
+This is a tiny python program which may help you 
 learn python basic grammar.I mainly used tkinter and csv package. GUI sometimes is a good way to help you find interests in learning python ! And please **star** my project if you like it.
 <div align="center">
 <img src="demo/1.png" width=400 height=260 alt="run demo">
@@ -17,7 +17,7 @@ Windows : \scripts\activate
 pip3 install -r requirements.txt
 python3 run.py
 ``` 
-And I have packaged them into executable files on Windows(.exe) with pyinstaller. You could run run.exe just like run any other amd64exe programs.
+And I have packaged them into executable files on Windows(.exe ver2) with pyinstaller. You could run run.exe just like run any other amd64exe programs. But strongly suggest you build it yourself through pyinstaller becasue the release version may have some logic bugs. Make sure your version is up to date.
 
 
 ## Feedback
@@ -26,6 +26,7 @@ If you have any problems or bug reports, you may propose a issue or <a href="Mai
 ## Update Record Time
     1. ver1 March 26, 2019
     2. ver2 June 27, 2019
+    3. ver3 July 5, 2019
 
 
 

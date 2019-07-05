@@ -40,12 +40,12 @@ def show_answer():
     if input[0] != user_next_head and user_next_head != None:
         var_answer.set('please obey the rule')
         return
-    counts += 1
     answer = word_module.get_answer(database, input)
     if answer:
         if answer == 'only allow Chinese word':
             var_answer.set(answer)
         else:
+            counts += 1
             user_next_head = answer[2]
             var_answer.set(answer[0])
             var_count.set(counts)
