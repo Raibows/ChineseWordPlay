@@ -21,7 +21,7 @@ And I have packaged them into executable files on Windows(.exe ver2) with pyinst
 
 
 ## Feedback
-If you have any problems or bug reports, you may propose a issue or <a href="Mailto:raibows@hotmail.com">contact </a> with me in email.
+If you have any problems or bug reports, you may propose a issue.
 
 ## Update Record Time
     1. ver1 March 26, 2019
