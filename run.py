@@ -1,3 +1,4 @@
-import window_module
 
-window_module.init_window()
+
+if __name__ == '__main__':
+    pass

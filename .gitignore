@@ -1,0 +1,7 @@
+*.png
+*.jpg
+*.txt
+*.pyc
+.idea/
+.vscode/
+venv/
