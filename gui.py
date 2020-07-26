@@ -3,7 +3,7 @@ from tkinter import messagebox
 from word import WordBase
 
 class MainPanel():
-    def __init__(self):
+    def __init__(self, database_path=None):
         self.root = tk.Tk()
         self.root.title("GitHub Raibows©")
         self.root.geometry("500x380+550+300")
@@ -37,7 +37,7 @@ class MainPanel():
                              bg='white', text='重新开始', command=self.restart_event)
         self.restart.grid(row=0, column=2)
 
-        self.backend = WordBase()
+        self.backend = WordBase(path=database_path)
         self.score_int = 0
         self.now_word = None
         self.tip_num = 3
@@ -90,5 +90,4 @@ class MainPanel():
 
 
 if __name__ == '__main__':
-    gui = MainPanel()
-    gui.run()
+    pass

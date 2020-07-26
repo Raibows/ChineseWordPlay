@@ -24,8 +24,8 @@ class Word():
         return self.word
 
 class WordBase():
-    def __init__(self):
-        self.path = r"database.cwp"
+    def __init__(self, path=None):
+        self.path = r"database.cwp" if not path else path
         self.check_Chinese_regex = r"([\u4e00-\u9fa5]){4}"
         self.words = read_database(self.path)
         self.build_next_candidates()
