@@ -1,7 +1,7 @@
 ## Introduction
 This is a tiny Python GUI program which may help you learn Python basic grammar. I mainly used tkinter for GUI. GUI sometimes is a good way to help you find interests in learning a new programming language! And please **star** my project if you like it.
 <div align="center">
-<img src="https://raw.githubusercontent.com/Raibows/MarkdownPhotos/master/picgoimage/20200726164938.png
+<img src="https://github.com/Raibows/MarkdownPhotos/raw/master/picgoimage/20200726164938.png
 " width=400 height=300 alt="run demo">
 </div>
 
